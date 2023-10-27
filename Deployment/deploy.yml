@@ -1,5 +1,5 @@
 ---
-- name: Pull Docker Image of Calculator
+- name: Pull Docker Image of calculator
   hosts: all
   vars:
     ansible_python_interpreter: /usr/bin/python3.8
@@ -13,4 +13,4 @@
         name: docker
         state: started
     - name: Running container
-      shell: docker run -it -d --name Calculator gandalf26/calculator
+      shell: docker run -it -d --name calculator gandalf26/calculator
