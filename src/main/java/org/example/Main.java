@@ -62,5 +62,6 @@ public class Main {
 
 		logger.info("Result: " + result);
         System.out.println("Result: " + result);
+		
     }
 }
